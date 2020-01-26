@@ -1,0 +1,151 @@
+body{
+    background: url('https://images.unsplash.com/photo-1516541196182-6bdb0516ed27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60') repeat center;
+}
+#profile{
+    background-color: #cf455c;
+    
+}
+
+  
+  
+.about .photos{
+   
+    background: url('img/photo-inner.png') no-repeat ;
+   
+   padding: 15px 15px 15px 15px;
+
+}
+
+ul{
+    list-style-type: none;
+}
+.about h2{
+    font-weight: 900;
+    color: azure;
+    line-height: 34px;
+    margin-top: 18px;
+    margin-left: -10px;
+    
+
+}
+.about h4{
+    display: flexbox;
+    margin-top: 5px;
+    margin-left: -10px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: azure;
+    line-height: 18px;
+    font-family: 'oswald',sans-serif;
+}
+.about p{
+    color: azure;
+    margin-left: -10px;
+    margin-bottom: 80px;
+}
+.img-height{
+    height: 90px;
+    width: 90px;
+}
+.test{
+   width: 310px;
+   background: url('/img/personal-info-sep.png') no-repeat left top;
+   padding:20px 0 19px 50px ;
+   margin-top: 10px;
+}
+.personal-info li{
+    line-height: 25px;
+    font-size: 15px;
+    color: white;
+
+}
+.personal-info li label{
+    color: white;
+    padding: 4px 10px ;
+    border-radius: 3px;
+    font-family: 'Roboto Condensed',sans-serif;
+    font-weight: 550px;
+
+}
+header{
+   position: relative;
+   overflow: visible;
+}
+.social-text{
+    position: absolute;
+    right: 0px;
+    padding: 2px 9px ;
+    font-size: 22px;
+    cursor: pointer;
+    top: 10px;
+    border-radius: 70px;
+    
+}
+.fa-mobile{
+    color: tomato;
+}
+.social-icons{
+    opacity: 0;
+    top:-2;
+    position: relative;
+    transition: all ease 1s;
+    z-index: 2;
+    left:  -7px;
+}
+.social-icons-button{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    line-height: 15px;
+    border: none;
+    box-shadow: 0 0 0 0 rgb(101,100,100);
+    color: #cf455c;
+    cursor: pointer;
+}
+.menu{
+    height: 100px;
+    background-color: black;
+    position: relative;
+    padding-left: 130px;
+    padding-right: 130;
+}
+.tabs{
+    height: 117px;
+    position: absolute;
+    margin-top: 14px;
+    z-index: 100;
+}
+.tabs li > a{
+    padding-top: 28px;
+    padding-right: 150dpx;
+    
+    width: 115px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    color: #b9b9b9;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed',sans-serif;
+    line-height: 35px;
+    text-decoration: none;
+}
+.tabs li.active{
+    background: url('img/tab-hover.png') no-repeat;
+}
+.tabs li.active a{
+    color: #cf455c;
+}
+.tabs li>a>i{
+    font-size: 45px;
+    display: block;
+    margin-bottom: 5px;
+    margin-top:-25px;
+    }
+#logo{
+    
+    overflow: hidden;
+    margin-left: 10px;
+    padding-top: 35px;
+    display: none;
+}
