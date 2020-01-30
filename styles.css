@@ -184,7 +184,13 @@ a.tab-profile{
     padding-top: 35px;
     display: none;
 }
-#logo h4{
+#logo2{
+    
+    margin-left: 10px;
+    padding-top: 15px;
+}
+
+#logo2 h4{
     color: #555;
     line-height: 20px;
     font-family: 'oswald',sans-serif;

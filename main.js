@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){ 
+/* jQuery(document).ready(function(){ 
 	
 	
 	var $logo 	= $('#logo');
@@ -14,4 +14,4 @@ jQuery(document).ready(function(){
 	$('.tab-profile').click(function() {
 	  $logo.fadeOut('slow');
 	});	
-});
+}); */
