@@ -14,25 +14,4 @@ jQuery(document).ready(function(){
 	$('.tab-profile').click(function() {
 	  $logo.fadeOut('slow');
 	});	
-    var $content 		= $("#content");
-	
-
-  	$content.easytabs({
-	  animate			: true,
-	  updateHash		: false,
-	  transitionIn		:'slideDown',
-	  transitionOut		:'slideUp',
-	  animationSpeed	:600,
-	  tabs				:"tmenu",
-	  tabActiveClass	:'active',
-	});
-
-
-	$content.find('.tabs li a').hover(
-		function() {
-			$(this).stop().animate({ marginTop: "-7px" }, 200);
-		},function(){
-			$(this).stop().animate({ marginTop: "0px" }, 300);
-		}
-    );
 });
